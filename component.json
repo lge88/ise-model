@@ -1,0 +1,64 @@
+{
+  "name": "ise-model",
+  "repo": "lge88/ise-model",
+  "description": "ise-model",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "lge88/extend": "*",
+    "lge88/composable": "*",
+    "lge88/uuid": "*",
+    "lge88/backbone": "*",
+    "lge88/underscore": "*"
+  },
+  "development": {
+    "lge88/expect.js": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lge88/ise-model.git"
+  },
+  "_examples": "https://github.com/lge88/ise-model/tree/master/examples",
+  "_test": "https://github.com/lge88/ise-model/tree/master/test",
+  "_homepage": "https://github.com/lge88/ise-model",
+  "scripts": [
+    "lib/ISEComposite.js",
+    "lib/ISEModel.js",
+    "lib/ISEObjectSet.js",
+    "lib/index.js",
+    "lib/protos/index.js",
+    "lib/ISEObject.js",
+    "lib/classes/index.js",
+    "lib/classes/FeNode.js"
+  ],
+  "styles": [],
+  "main": "lib/index.js",
+  "_rename_": [
+    "component.json",
+    "package.json",
+    "Makefile",
+    "examples/index.html",
+    "examples/main.js",
+    "examples/main.css",
+    "test/index.html",
+    "test/test.js"
+  ],
+  "_ise_paths_": [
+    "lib",
+    "lib-client"
+  ],
+  "_auto_update_file_list_": {
+    "folders": [
+      "lib"
+    ]
+  },
+  "_auto_index_files_": [
+    "lib/classes/index.js",
+    "lib/protos/index.js"
+  ],
+  "paths": [
+    "/home/GL/Develop/js/ise/lib",
+    "/home/GL/Develop/js/ise/lib-client"
+  ],
+  "remotes": []
+}
