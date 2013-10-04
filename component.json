@@ -22,14 +22,22 @@
   "_test": "https://github.com/lge88/ise-model/tree/master/test",
   "_homepage": "https://github.com/lge88/ise-model",
   "scripts": [
-    "lib/ISEComposite.js",
-    "lib/ISEModel.js",
-    "lib/ISEObjectSet.js",
+    "lib/routes.js",
     "lib/index.js",
-    "lib/protos/index.js",
-    "lib/ISEObject.js",
+    "lib/classes/elements/index.js",
+    "lib/classes/elements/Truss.js",
     "lib/classes/index.js",
-    "lib/classes/FeNode.js"
+    "lib/classes/FeElement.js",
+    "lib/classes/FeNode.js",
+    "lib/ISEObject.js",
+    "lib/ISEComposite.js",
+    "lib/protos/to-opensees.js",
+    "lib/protos/to-fe-model.js",
+    "lib/protos/index.js",
+    "lib/protos/history.js",
+    "lib/ISEModel.js",
+    "lib/ISERepo.js",
+    "lib/ISEObjectSet.js"
   ],
   "styles": [],
   "main": "lib/index.js",
@@ -54,6 +62,7 @@
   },
   "_auto_index_files_": [
     "lib/classes/index.js",
+    "lib/classes/elements/index.js",
     "lib/protos/index.js"
   ],
   "paths": [

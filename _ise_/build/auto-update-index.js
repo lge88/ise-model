@@ -39,7 +39,7 @@ function updateIndexFiles( context ) {
       // echo( base );
       var files = ls( dir )
         .filter( function( f ) {
-          return /\.js$/.test( f ) || test( '-d', f );
+          return /\.js$/.test( f ) || test( '-d', path.resolve( dir, f ) );
         } )
         .filter( function( f ) {
           return f !== base;
@@ -58,6 +58,7 @@ function updateIndexFiles( context ) {
       var code = 'module.exports = exports = [\n';
       code += files
         .map( function( f ) {
+          f = './' + path.basename( f, '.js' );
           return '  require( \'' + f + '\' )'
         } )
         .join( ',\n' );
